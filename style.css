@@ -7,9 +7,11 @@
 }
 
 body{
-    margin: auto;
+   
     background-image: linear-gradient( to top, #DEEBF5, #F8E3D4, #F7E3D3);
     background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
     
     
 }
@@ -26,6 +28,7 @@ h1{
     font-family: "Roboto",  sans-serif; 
     font-style: normal;
     font-size: 1.2em;
+    margin: 10px;
     
 }
 .bloco{
@@ -33,9 +36,9 @@ h1{
     background-color: white;
     border: lightgray solid 1px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 6px;
     position: relative;
-    width: 40%;
+    width: 70%;
     
 }
 
@@ -55,10 +58,11 @@ top: 50%;
 right: 3%;
 transform: translate(-50%, -50%);
 }
+
 .link{
     color: #ff916d;
 }
-.link:hover{
+.link:hover, #registro:hover{
 text-decoration:underline;
 transform: translate(-0px, -2px);
 transition: transform 0.3s;
@@ -71,12 +75,27 @@ p{
     font-style:normal;
     text-align: center;
 }
-
-footer{
-    background-color: black;
-    height: 50px;
-    color: white;
-    padding: 10px; 
+.botao{
+   background-color: #ff916d; 
+   color:white;
+   border-radius: 10px;
+   width: 40%;
+   padding: 2px;
+   margin: auto;
+   margin-top: 10%;
+   margin-bottom: 4%;
    
 }
+#registro{
+    color: #ff916d;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+footer{
+    background-color:#DEEBF5;
+    height: 50px;
+    color: white;
+    padding: 10px;
+}
+
 
