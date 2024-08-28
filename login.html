@@ -12,19 +12,26 @@
 <body>
     <header>
     <!--Aqqui haverá um menu-->
+    <label>
+        <input type="checkbox">
+        <span class="menu"> <span class="hamburger"></span> </span>
+        <ul>
+          <li> <a href="#">Home</a> </li>
+          <li> <a href="#">About</a> </li>
+          <li> <a href="#">Contact</a> </li>
+        </ul>
+        </label>
     </header>
     <main>
        
     <h1>Tomorrow</h1>
-        <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nulla! Quis libero</p>
+        <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nulla! Quis libero</p> <br>
     
         
-        <div class="bloco"><p>Email</p></div>
-        <div class="bloco"> <p>Password</p> <img  src="interface-icons/olho-aberto.png" alt="icone de olho representando a visibilidade da senha" > </div>
+        <div class="bloco"><p>Email</p></div> <br>
+        <div class="bloco"> <p>Password</p> <img onclick="esconder()" id="image" src="interface-icons/olho-aberto.png" alt="icone de olho representando a visibilidade da senha" > </div>
 
         
-        
-    
 
     <p class="link">Forgotten?</p>
     
@@ -36,7 +43,47 @@
     <p id="registro">Create account</p>
     </main>
     <footer>
-     <p>Lorem ipsum dolor sit amet, </p>
+
+     <p>Projeto desenvolvido como atividade do programa de treinamento da empresa ForLogic</p>
+     
+    
+     <ul>
+        <h2>Crédito aos autores:</h2>
+            <li><a href="https://www.flaticon.com/br/icones-gratis/olho" title="olho ícones">olho - berkahicon</a></li>
+            <li><a href="https://www.flaticon.com/br/icones-gratis/senha-do-olho" title="senha do olho ícones">olho fechado - pictogramer </a>
+            </li>
+            <li> <a href="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram" title="logotipo do instagram ícones">Logotipo do instagram - Pixel perfect </a> </li>
+            <li><a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones"> Logotipo do Github - Ruslan Babkin</a></li>
+            <li><a href="https://www.flaticon.com/br/icones-gratis/whatsapp" title="whatsapp ícones"> Logotipo do Whatsapp-  riajulislam</a></li>
+            <li><a href="https://www.flaticon.com/br/icones-gratis/youtube" title="youtube ícones">Logotipo do Youtube - Md Tanvirul Haque </a></li>
+            <li><a href="https://www.flaticon.com/br/icones-gratis/facebook" title="facebook ícones">Logotipo do Facebook - riajulislam </a></li>
+           
+     </ul>
+
+     <h2>Acompanhe nossas redes sociais:</h2> 
+     
+        <img src="interface-icons/instagram.png" alt="logo do instagram">
+        <img src="interface-icons/github.png" alt="logo do github">
+        <img src="interface-icons/whatsapp.png" alt="logo do whatsapp">
+        <img src="interface-icons/youtube.png" alt="logo do youtube">
+        <img src="interface-icons/facebook.png" alt="logo do facebook">
+    
+  
+    <p>28/08/2024 - Desenvolvido por <a href="">Jad Martins de Lima</a></p>
+
+    <h3>Confira</h3>
+<ul>
+    <li><a href="">Sobre nós</a></li>
+    <li><a href="">Nossos serviços</a></li>
+    <li><a href="">Política de privacidade</a></li>
+</ul>
     </footer>
+    <script>
+        function esconder(params){
+        
+            var img = document.querySelector("#image");
+            img.setAttribute('src', 'interface-icons/olho-vermelho.png');
+        }
+    </script>
 </body>
 </html>
