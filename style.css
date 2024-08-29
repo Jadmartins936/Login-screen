@@ -196,6 +196,7 @@ h2{
 footer{
     background-color:#DEEBF5;
     color: #262930;
+    width: 100vw;
     
 }
 
@@ -239,6 +240,8 @@ display:inline-block;
 margin: auto;
 position: absolute;
 list-style: none;
+
+
 }
 .redes > img
 {
@@ -249,8 +252,9 @@ list-style: none;
 .redes{
   float: left;
   margin-right: 30px;
+  width: 50vvw;
 }
-footer > p #rodape{
+footer #rodape{
 margin: auto;
 height: 40px;
 color: #fceee3;
@@ -275,7 +279,7 @@ width: 30px;
 .contato{
   
   margin: auto;
-  margin-bottom: 30px;
+ 
 }
 
 
