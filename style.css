@@ -196,7 +196,7 @@ h2{
 footer{
     background-color:#DEEBF5;
     color: #262930;
-    padding: 10px; 
+    
 }
 
 h2,h3{
@@ -221,6 +221,7 @@ ul#referencias{
     list-style: none;
   
 }
+
 ul{
   padding: 30px;
 }
@@ -237,6 +238,7 @@ li, li > a{
 display:inline-block;
 margin: auto;
 position: absolute;
+list-style: none;
 }
 .redes > img
 {
@@ -245,17 +247,37 @@ position: absolute;
   display: inline-block;
 }
 .redes{
-  position: relative;
+  float: left;
+  margin-right: 30px;
+}
+footer > p #rodape{
+margin: auto;
+height: 40px;
+color: #fceee3;
+background-color: #262930;
+width: 100%;
+left: -10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.redes > p{
   display: inline-block;
-  left: 30%;
-  margin: 30px;
+  font-size: 1em;
+  padding: 10px;
+  position:absolute
 }
-footer >p{
 
-
-  
-  
+.contato > img{
+margin: 0px 10px 0px 10px;
+width: 30px;
 }
+.contato{
+  
+  margin: auto;
+  margin-bottom: 30px;
+}
+
 
 
 
